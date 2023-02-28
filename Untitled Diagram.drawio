@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-28T05:57:07.658Z" agent="5.0 (Windows)" etag="Yb0zzv1OsaPFS7QZH6x7" version="20.8.16" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-28T06:13:37.671Z" agent="5.0 (Windows)" etag="RNjVredFm8GSz2Um3SSn" version="20.8.16" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="535" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2261" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -167,7 +167,7 @@
         <mxCell id="w-smARKrVblFa7TTy6di-78" value="-medicalRecords: List&amp;lt;MedicalRecord&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=12;fontFamily=Helvetica;" vertex="1" parent="w-smARKrVblFa7TTy6di-73">
           <mxGeometry y="150" width="240" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="w-smARKrVblFa7TTy6di-85" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;fontFamily=Helvetica;fontSize=12;exitX=1;exitY=0.1;exitDx=0;exitDy=0;entryX=0.006;entryY=0.189;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="w-smARKrVblFa7TTy6di-73" target="w-smARKrVblFa7TTy6di-86">
+        <mxCell id="w-smARKrVblFa7TTy6di-85" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;fontFamily=Helvetica;fontSize=12;exitX=1;exitY=0.1;exitDx=0;exitDy=0;entryX=0.006;entryY=0.178;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="w-smARKrVblFa7TTy6di-73" target="w-smARKrVblFa7TTy6di-86">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="330" y="1030" as="sourcePoint" />
             <mxPoint x="360" y="925" as="targetPoint" />
@@ -175,7 +175,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="w-smARKrVblFa7TTy6di-86" value="MedicalRecord" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;shadow=0;strokeColor=#000000;fontFamily=Helvetica;fontSize=12;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="360" y="850" width="170" height="90" as="geometry" />
+          <mxGeometry x="370" y="850" width="170" height="90" as="geometry" />
         </mxCell>
         <mxCell id="w-smARKrVblFa7TTy6di-87" value="-date: Date" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=12;fontFamily=Helvetica;" vertex="1" parent="w-smARKrVblFa7TTy6di-86">
           <mxGeometry y="30" width="170" height="30" as="geometry" />
@@ -191,6 +191,51 @@
         </mxCell>
         <mxCell id="w-smARKrVblFa7TTy6di-93" value="+removeMedicalRecord(medicalRecord: MedicalRecord): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=12;fontFamily=Helvetica;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry y="1080" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w-smARKrVblFa7TTy6di-94" value="Caretaker&amp;nbsp;&amp;nbsp; " style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;shadow=0;strokeColor=#000000;fontFamily=Helvetica;fontSize=12;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry y="1180" width="240" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="w-smARKrVblFa7TTy6di-95" value="-name: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=12;fontFamily=Helvetica;" vertex="1" parent="w-smARKrVblFa7TTy6di-94">
+          <mxGeometry y="30" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w-smARKrVblFa7TTy6di-96" value="-contact: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=12;fontFamily=Helvetica;" vertex="1" parent="w-smARKrVblFa7TTy6di-94">
+          <mxGeometry y="60" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w-smARKrVblFa7TTy6di-97" value="-assignedEnclosures: List&amp;lt;Enclosure&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=12;fontFamily=Helvetica;" vertex="1" parent="w-smARKrVblFa7TTy6di-94">
+          <mxGeometry y="90" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w-smARKrVblFa7TTy6di-99" value="-assignedAnimals: List&amp;lt;Animal&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=12;fontFamily=Helvetica;" vertex="1" parent="w-smARKrVblFa7TTy6di-94">
+          <mxGeometry y="120" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w-smARKrVblFa7TTy6di-101" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;strokeColor=#000000;fontFamily=Helvetica;fontSize=12;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry y="1330" width="240" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="w-smARKrVblFa7TTy6di-102" value="+takeCareOf(enclosure: Enclosure): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=12;fontFamily=Helvetica;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry y="1330" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w-smARKrVblFa7TTy6di-103" value="+removeEnclosure(enclosure: Enclosure): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=12;fontFamily=Helvetica;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry y="1360" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w-smARKrVblFa7TTy6di-104" value="+takeCareOf(animal: Animal): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=12;fontFamily=Helvetica;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry y="1400" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w-smARKrVblFa7TTy6di-105" value="+removeAnimal(animal: Animal): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=12;fontFamily=Helvetica;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry y="1430" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w-smARKrVblFa7TTy6di-108" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Explaination&lt;/font&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;fontFamily=Helvetica;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-10" y="1510" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="w-smARKrVblFa7TTy6di-109" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Zoo class: represents a zoo and has attributes such as name, size, type, and lists of enclosures, animals, and caretakers. It can add/remove enclosures and animals, and assign caretakers to enclosures and animals.&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;fontFamily=Helvetica;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry y="1560" width="1210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="w-smARKrVblFa7TTy6di-110" value="Enclosure class: represents an enclosure in the zoo and has attributes such as name, size, type, and lists of animals and caretakers. It can add/remove animals and caretakers and return the list of caretakers." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry y="1610" width="1160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w-smARKrVblFa7TTy6di-112" value="Animal class: represents an animal in the zoo and has attributes such as name, species, diet, and a reference to its enclosure. It also has a list of medical records and methods to add/remove medical records." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry y="1650" width="1160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w-smARKrVblFa7TTy6di-113" value="Caretaker class: represents a caretaker in the zoo and has attributes such as name, contact, and lists of assigned enclosures and animals" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry y="1690" width="780" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
