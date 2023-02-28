@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-02-28T05:47:55.181Z" agent="5.0 (Windows)" etag="R1enpTCygrUvSIHUpEnu" version="20.8.16" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-28T05:50:12.988Z" agent="5.0 (Windows)" etag="EmQIojTaTWT5Cg0TOX1Q" version="20.8.16" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="535" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="w-smARKrVblFa7TTy6di-35" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="710" y="200" width="410" height="150" as="geometry" />
+          <mxGeometry x="710" y="200" width="410" height="130" as="geometry" />
         </mxCell>
         <mxCell id="zkfFHV4jXpPFQw0GAbJ--0" value="Zoo" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;strokeColor=#000000;fillColor=#FFFFFF;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="40" y="60" width="160" height="210" as="geometry">
@@ -90,18 +90,6 @@
         <mxCell id="w-smARKrVblFa7TTy6di-28" value="-animals: List&lt;Animal&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="w-smARKrVblFa7TTy6di-19">
           <mxGeometry y="104" width="410" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="w-smARKrVblFa7TTy6di-34" value="&lt;div style=&quot;color: rgb(214, 222, 235); background-color: rgb(1, 22, 39); font-family: &amp;quot;Operator Mono&amp;quot;, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 16px; line-height: 22px;&quot;&gt;&lt;div&gt;-takeCareOf(enclosure: Enclosure): void&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="680" y="200" width="410" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="w-smARKrVblFa7TTy6di-36" value="&lt;div style=&quot;color: rgb(214, 222, 235); background-color: rgb(1, 22, 39); font-family: &amp;quot;Operator Mono&amp;quot;, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 16px; line-height: 22px;&quot;&gt;&lt;div&gt;-removeEnclosure(enclosure: Enclosure): void&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#FFFFFF;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="700" y="230" width="410" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="w-smARKrVblFa7TTy6di-37" value="&lt;div style=&quot;color: rgb(214, 222, 235); background-color: rgb(1, 22, 39); font-family: &amp;quot;Operator Mono&amp;quot;, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 16px; line-height: 22px;&quot;&gt;&lt;div&gt;-takeCareOf(animal: Animal): void&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#FFFFFF;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="700" y="262" width="310" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="w-smARKrVblFa7TTy6di-38" value="&lt;div style=&quot;color: rgb(214, 222, 235); background-color: rgb(1, 22, 39); font-family: &amp;quot;Operator Mono&amp;quot;, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 16px; line-height: 22px;&quot;&gt;&lt;div&gt;-removeAnimal(animal: Animal): void&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#FFFFFF;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="700" y="300" width="330" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="w-smARKrVblFa7TTy6di-44" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.421;exitY=-0.003;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="w-smARKrVblFa7TTy6di-55" target="zkfFHV4jXpPFQw0GAbJ--0">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="121" y="490" as="sourcePoint" />
@@ -112,7 +100,7 @@
           <mxGeometry x="120" y="380" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="w-smARKrVblFa7TTy6di-55" value="Enclosure" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry y="410" width="290" height="310" as="geometry">
+          <mxGeometry y="410" width="290" height="320" as="geometry">
             <mxRectangle x="550" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -148,6 +136,18 @@
         </mxCell>
         <mxCell id="w-smARKrVblFa7TTy6di-66" value="+getCaretakers(): List&lt;Caretaker&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="w-smARKrVblFa7TTy6di-55">
           <mxGeometry y="268" width="290" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="w-smARKrVblFa7TTy6di-67" value="-takeCareOf(enclosure: Enclosure): void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="710" y="200" width="290" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="w-smARKrVblFa7TTy6di-68" value="-removeEnclosure(enclosure: Enclosure): void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="710" y="226" width="290" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="w-smARKrVblFa7TTy6di-69" value="-takeCareOf(animal: Animal): void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="710" y="252" width="290" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="w-smARKrVblFa7TTy6di-70" value="-removeAnimal(animal: Animal): void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="710" y="278" width="290" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
