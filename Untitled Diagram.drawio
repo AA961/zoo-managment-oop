@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-28T05:50:12.988Z" agent="5.0 (Windows)" etag="EmQIojTaTWT5Cg0TOX1Q" version="20.8.16" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-28T05:57:07.658Z" agent="5.0 (Windows)" etag="Yb0zzv1OsaPFS7QZH6x7" version="20.8.16" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="535" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -148,6 +148,49 @@
         </mxCell>
         <mxCell id="w-smARKrVblFa7TTy6di-70" value="-removeAnimal(animal: Animal): void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="710" y="278" width="290" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="w-smARKrVblFa7TTy6di-73" value="Animal" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;shadow=0;strokeColor=#000000;fontFamily=Helvetica;fontSize=12;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry y="850" width="240" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="w-smARKrVblFa7TTy6di-74" value="-name: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=12;fontFamily=Helvetica;" vertex="1" parent="w-smARKrVblFa7TTy6di-73">
+          <mxGeometry y="30" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w-smARKrVblFa7TTy6di-75" value="-species: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=12;fontFamily=Helvetica;" vertex="1" parent="w-smARKrVblFa7TTy6di-73">
+          <mxGeometry y="60" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w-smARKrVblFa7TTy6di-76" value="-diet: string " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=12;fontFamily=Helvetica;" vertex="1" parent="w-smARKrVblFa7TTy6di-73">
+          <mxGeometry y="90" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w-smARKrVblFa7TTy6di-77" value="-enclosure: Enclosure" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=12;fontFamily=Helvetica;" vertex="1" parent="w-smARKrVblFa7TTy6di-73">
+          <mxGeometry y="120" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w-smARKrVblFa7TTy6di-78" value="-medicalRecords: List&amp;lt;MedicalRecord&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=12;fontFamily=Helvetica;" vertex="1" parent="w-smARKrVblFa7TTy6di-73">
+          <mxGeometry y="150" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w-smARKrVblFa7TTy6di-85" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;fontFamily=Helvetica;fontSize=12;exitX=1;exitY=0.1;exitDx=0;exitDy=0;entryX=0.006;entryY=0.189;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="w-smARKrVblFa7TTy6di-73" target="w-smARKrVblFa7TTy6di-86">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="1030" as="sourcePoint" />
+            <mxPoint x="360" y="925" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w-smARKrVblFa7TTy6di-86" value="MedicalRecord" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;shadow=0;strokeColor=#000000;fontFamily=Helvetica;fontSize=12;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="360" y="850" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="w-smARKrVblFa7TTy6di-87" value="-date: Date" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=12;fontFamily=Helvetica;" vertex="1" parent="w-smARKrVblFa7TTy6di-86">
+          <mxGeometry y="30" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w-smARKrVblFa7TTy6di-88" value="-description: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=12;fontFamily=Helvetica;" vertex="1" parent="w-smARKrVblFa7TTy6di-86">
+          <mxGeometry y="60" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w-smARKrVblFa7TTy6di-90" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;strokeColor=#000000;fontFamily=Helvetica;fontSize=12;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry y="1030" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="w-smARKrVblFa7TTy6di-92" value="+addMedicalRecord(medicalRecord: MedicalRecord): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=12;fontFamily=Helvetica;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry y="1040" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w-smARKrVblFa7TTy6di-93" value="+removeMedicalRecord(medicalRecord: MedicalRecord): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=12;fontFamily=Helvetica;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry y="1080" width="240" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
